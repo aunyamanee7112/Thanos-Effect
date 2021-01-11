@@ -1,0 +1,49 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+  /* background: url(/img/space.png); */
+  background-size: cover;
+}
+/* body::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(#e91e63 , #ffc107);
+  clip-path:circle(25% at 20% 105%); 
+}
+body::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(#e91e63 , #ffc107);
+  clip-path:circle(20% at 75% 20%); 
+} */
+#snap{
+  position: fixed;
+  top: 85%;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dust {
+  position: absolute;
+}
+#sat{
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
